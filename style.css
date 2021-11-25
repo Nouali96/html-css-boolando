@@ -1,0 +1,96 @@
+
+.main-container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.img-container {
+    display: inline-block;
+    position: relative;
+    width: auto;
+
+}
+
+.container{
+    display: inline-block;
+    width: 30%;
+    margin: 1%;
+}
+
+img{
+    width: 100%;
+    }
+
+.img-b {
+    display: block;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.img-container:hover .img-b {
+    opacity: 1;
+}
+
+.black-heart{
+    font-size: 25px;
+    margin: auto;
+}  
+
+.heart-container{
+    position: absolute;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    top: 0;
+    right: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.tag{
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    color: white;
+    padding: 3px;
+    font-size: 0.75em;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.discount{
+    background-color: red;
+}
+
+.tag-s{
+    background-color: green;
+}
+
+.description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75em;
+    margin-top: 5px;
+}
+
+.description h3{
+    margin: 0px;
+}
+
+.description p{
+    margin: 0px;
+}
+
+.red{
+    color: red;
+}
+
+.ex-price{
+    color: grey;
+    text-decoration-line: line-through;
+}
+
+
+       
+  
